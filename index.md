@@ -14,7 +14,7 @@ humantime: "10:00 - 17:00 (25th),<br/>14:00 - 17:00 (26th/27th)"    # human-read
 startdate: 2020-11-25      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2020-11-27        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Chris Cave-Ayland", "Iain Barrass", "TBC"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["Jeremy Cohen", "Jay DesLauriers", "TBC"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+helper: ["Jeremy Cohen", "Jay DesLauriers", "Jazz Mack Smith", "Matt Alexandrakis", "TBC"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["contact@rslondon.ac.uk"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:  "https://pad.carpentries.org/2020-11-25-rslondon" # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
 eventbrite: "127194986629"   # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
@@ -37,7 +37,7 @@ And run 'make workshop-check' *before* committing to make sure that changes are 
 For a workshop please delete the following block until the next dashed-line
 {% endcomment %}
 
-
+{% comment %}
 <div class="alert alert-danger">
 This is the workshop template. Delete these lines and use it to
 <a href="https://carpentries.github.io/workshop-template/customization/index.html">customize</a>
@@ -47,6 +47,7 @@ in a workshop request yet, please also fill in
 to let us know about your workshop and our administrator may contact you if we
 need any extra information.
 </div>
+{% endcomment %}
 
 {% comment %}
 8< ============================= until here ==================
@@ -86,6 +87,16 @@ are not using Eventbrite, or leave it in, since it will not be
 displayed if the 'eventbrite' field in the header is not set.
 {% endcomment %}
 {% if page.eventbrite %}
+<strong class="text-primary">The Eventbrite registration form should appear in the
+  panel below. There are a number of ticket types available so that we can provide
+  an allocation of spaces to a number of different institutions. You may need to 
+  scroll down to select a ticket from your institution's allocation or the "Other 
+  institution" ticket type. PLEASE REGISTER USING YOUR INSTITUTIONAL EMAIL ADDRESS
+</strong><br/>
+<strong class="text-success">If you would like to undertake your registration on 
+  the main Eventbrite site rather than via the small panel below, please visit 
+  the [Eventbrite registration page for the course](https://www.eventbrite.co.uk/e/research-software-london-software-carpentry-workshop-registration-127194986629) 
+  directly.</strong><br/>
 <strong>Some adblockers block the registration window. If you do not see the
   registration box below, please check your adblocker settings.</strong>
 <iframe
