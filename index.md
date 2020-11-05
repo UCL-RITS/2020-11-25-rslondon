@@ -13,7 +13,7 @@ humandate: "Nov 25-27, 2020"    # human-readable dates for the workshop (e.g., "
 humantime: "10:00 - 17:00 (25th),<br/>14:00 - 17:00 (26th/27th)"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2020-11-25      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2020-11-27        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["Chris Cave-Ayland", "Iain Barrass", "TBC"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+instructor: ["Chris Cave-Ayland", "Iain Barrass", "Tom Dowrick"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["Jeremy Cohen", "Jay DesLauriers", "Jazz Mack Smith", "Matt Alexandrakis", "Tony Yang", "TBC"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["contact@rslondon.ac.uk"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:  "https://pad.carpentries.org/2020-11-25-rslondon" # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
